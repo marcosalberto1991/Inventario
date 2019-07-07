@@ -70,6 +70,9 @@ Route::resource('Proveedor','ProveedorController');
 Route::resource('Producto','ProductoController');
 Route::post('Producto/update/{id}', 'ProductoController@update');
 Route::put( 'Producto/update/{id}', 'ProductoController@update');
+
+Route::post('Productos/update/{id}', 'ProductosController@update');
+Route::put( 'Productos/update/{id}', 'ProductosController@update');
 use App\municipiosModel;
 Route::resource('frutas', 'FrutasController');
 
@@ -282,11 +285,14 @@ Route::post('Auditoria/changeStatus', array('as' => 'changeStatus', 'uses' => 'A
 Route::post('Reportes/auditoria_pdf', array('as' => 'Reportes', 'uses' => 'ReportesController@auditoria_pdf'));
 Route::post('Auditoria', array('as' => 'index', 'uses' => 'AuditoriaController@index'));
 
+
 Route::get('/clear', function() {
+
    Artisan::call('cache:clear');
    Artisan::call('config:clear');
    Artisan::call('config:cache');
    Artisan::call('view:clear');
+
    return "configuracion actualizado en ENV!";
 
 });

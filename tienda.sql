@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 07-07-2019 a las 05:27:54
+-- Tiempo de generación: 02-06-2019 a las 05:11:51
 -- Versión del servidor: 10.1.37-MariaDB
 -- Versión de PHP: 7.0.33
 
@@ -284,82 +284,7 @@ INSERT INTO `audits` (`id`, `user_type`, `user_id`, `event`, `auditable_id`, `au
 (231, 'App\\User', 1, 'deleted', 31, 'App\\Ventas_has_productoModel', '{\"id\":31,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":5}', '[]', 'http://localhost/boya/public/ventas_has_producto/31?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', NULL, '2019-06-02 02:59:56', '2019-06-02 02:59:56'),
 (232, 'App\\User', 1, 'deleted', 30, 'App\\Ventas_has_productoModel', '{\"id\":30,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":4}', '[]', 'http://localhost/boya/public/ventas_has_producto/30?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', NULL, '2019-06-02 03:00:29', '2019-06-02 03:00:29');
 INSERT INTO `audits` (`id`, `user_type`, `user_id`, `event`, `auditable_id`, `auditable_type`, `old_values`, `new_values`, `url`, `ip_address`, `user_agent`, `tags`, `created_at`, `updated_at`) VALUES
-(233, 'App\\User', 1, 'deleted', 28, 'App\\Ventas_has_productoModel', '{\"id\":28,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":3}', '[]', 'http://localhost/boya/public/ventas_has_producto/28?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', NULL, '2019-06-02 03:00:38', '2019-06-02 03:00:38'),
-(234, 'App\\User', 1, 'deleted', 27, 'App\\Ventas_has_productoModel', '{\"id\":27,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":3}', '[]', 'http://localhost/boya/public/ventas_has_producto/27?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', NULL, '2019-06-06 03:42:45', '2019-06-06 03:42:45'),
-(235, 'App\\User', 1, 'deleted', 27, 'App\\Ventas_has_productoModel', '{\"id\":27,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":3}', '[]', 'http://localhost/boya/public/ventas_has_producto/27?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:54:24', '2019-06-10 02:54:24'),
-(236, 'App\\User', 1, 'created', 28, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":1,\"cantidad\":\"2\",\"id\":28}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:55:35', '2019-06-10 02:55:35'),
-(237, 'App\\User', 1, 'created', 29, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":1,\"cantidad\":\"2\",\"id\":29}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:55:50', '2019-06-10 02:55:50'),
-(238, 'App\\User', 1, 'created', 30, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":1,\"cantidad\":\"2\",\"id\":30}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:55:52', '2019-06-10 02:55:52'),
-(239, 'App\\User', 1, 'created', 31, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":2,\"cantidad\":\"2\",\"id\":31}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:55:55', '2019-06-10 02:55:55'),
-(240, 'App\\User', 1, 'created', 32, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":2,\"cantidad\":\"2\",\"id\":32}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:55:59', '2019-06-10 02:55:59'),
-(241, 'App\\User', 1, 'created', 33, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":1,\"cantidad\":\"2\",\"id\":33}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:56:03', '2019-06-10 02:56:03'),
-(242, 'App\\User', 1, 'created', 34, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":2,\"cantidad\":\"2\",\"id\":34}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:56:05', '2019-06-10 02:56:05'),
-(243, 'App\\User', 1, 'created', 35, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":2,\"cantidad\":\"2\",\"id\":35}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 02:56:09', '2019-06-10 02:56:09'),
-(244, 'App\\User', 1, 'deleted', 26, 'App\\Ventas_has_productoModel', '{\"id\":26,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":3}', '[]', 'http://localhost/boya/public/ventas_has_producto/26?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:13:00', '2019-06-10 03:13:00'),
-(245, 'App\\User', 1, 'created', 36, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":4,\"ventas_id\":1,\"cantidad\":\"3\",\"id\":36}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:29:25', '2019-06-10 03:29:25'),
-(246, 'App\\User', 1, 'created', 37, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":4,\"ventas_id\":1,\"cantidad\":\"3\",\"id\":37}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:29:48', '2019-06-10 03:29:48'),
-(247, 'App\\User', 1, 'created', 38, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":4,\"ventas_id\":1,\"cantidad\":\"3\",\"id\":38}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:30:14', '2019-06-10 03:30:14'),
-(248, 'App\\User', 1, 'created', 39, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":4,\"ventas_id\":1,\"cantidad\":\"5\",\"id\":39}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:30:25', '2019-06-10 03:30:25'),
-(249, 'App\\User', 1, 'created', 40, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":2,\"cantidad\":\"3\",\"id\":40}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:30:54', '2019-06-10 03:30:54'),
-(250, 'App\\User', 1, 'created', 41, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":5,\"ventas_id\":1,\"cantidad\":\"1\",\"id\":41}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:31:39', '2019-06-10 03:31:39'),
-(251, 'App\\User', 1, 'created', 42, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":1,\"cantidad\":\"1\",\"id\":42}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:31:50', '2019-06-10 03:31:50'),
-(252, 'App\\User', 1, 'created', 43, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":4,\"ventas_id\":1,\"cantidad\":\"1\",\"id\":43}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 03:32:31', '2019-06-10 03:32:31'),
-(253, 'App\\User', 1, 'updated', 2, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 23:18:25', '2019-06-10 23:18:25'),
-(254, 'App\\User', 1, 'created', 3, 'App\\VentasModel', '[]', '{\"mesa_id\":2,\"estado_id\":1,\"id\":3}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-10 23:18:25', '2019-06-10 23:18:25'),
-(255, 'App\\User', 1, 'updated', 41, 'App\\Ventas_has_productoModel', '{\"producto_id\":5,\"cantidad\":1}', '{\"producto_id\":3,\"cantidad\":\"6\"}', 'http://localhost/boya/public/ventas_has_producto/41?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-11 00:33:32', '2019-06-11 00:33:32'),
-(256, 'App\\User', 1, 'updated', 41, 'App\\Ventas_has_productoModel', '{\"producto_id\":3}', '{\"producto_id\":4}', 'http://localhost/boya/public/ventas_has_producto/41?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-11 00:33:49', '2019-06-11 00:33:49'),
-(257, 'App\\User', 1, 'updated', 36, 'App\\Ventas_has_productoModel', '{\"producto_id\":4,\"cantidad\":3}', '{\"producto_id\":5,\"cantidad\":\"10\"}', 'http://localhost/boya/public/ventas_has_producto/36?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-11 00:43:33', '2019-06-11 00:43:33'),
-(258, 'App\\User', 1, 'deleted', 28, 'App\\Ventas_has_productoModel', '{\"id\":28,\"ventas_id\":1,\"producto_id\":3,\"cantidad\":2}', '[]', 'http://localhost/boya/public/ventas_has_producto/28?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-12 03:27:38', '2019-06-12 03:27:38'),
-(259, 'App\\User', 1, 'deleted', 29, 'App\\Ventas_has_productoModel', '{\"id\":29,\"ventas_id\":1,\"producto_id\":3,\"cantidad\":2}', '[]', 'http://localhost/boya/public/ventas_has_producto/29?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-12 03:27:42', '2019-06-12 03:27:42'),
-(260, 'App\\User', 1, 'deleted', 38, 'App\\Ventas_has_productoModel', '{\"id\":38,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":3}', '[]', 'http://localhost/boya/public/ventas_has_producto/38?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-12 03:27:55', '2019-06-12 03:27:55'),
-(261, 'App\\User', 1, 'deleted', 37, 'App\\Ventas_has_productoModel', '{\"id\":37,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":3}', '[]', 'http://localhost/boya/public/ventas_has_producto/37?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', NULL, '2019-06-12 03:27:57', '2019-06-12 03:27:57'),
-(262, 'App\\User', 1, 'updated', 3, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/3?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:18:09', '2019-06-20 13:18:09'),
-(263, 'App\\User', 1, 'created', 4, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":4}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:25:16', '2019-06-20 13:25:16'),
-(264, 'App\\User', 1, 'updated', 39, 'App\\Ventas_has_productoModel', '{\"producto_id\":4}', '{\"producto_id\":5}', 'http://localhost/boya/public/ventas_has_producto/39?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:44:49', '2019-06-20 13:44:49'),
-(265, 'App\\User', 1, 'created', 5, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":5}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:45:36', '2019-06-20 13:45:36'),
-(266, 'App\\User', 1, 'updated', 4, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/4?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:47:04', '2019-06-20 13:47:04'),
-(267, 'App\\User', 1, 'updated', 5, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/5?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:47:08', '2019-06-20 13:47:08'),
-(268, 'App\\User', 1, 'created', 6, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":6}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:47:11', '2019-06-20 13:47:11'),
-(269, 'App\\User', 1, 'created', 7, 'App\\VentasModel', '[]', '{\"mesa_id\":\"1\",\"estado_id\":1,\"id\":7}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/1?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:48:50', '2019-06-20 13:48:50'),
-(270, 'App\\User', 1, 'updated', 7, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/7?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:52:32', '2019-06-20 13:52:32'),
-(271, 'App\\User', 1, 'updated', 6, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/6?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:53:47', '2019-06-20 13:53:47'),
-(272, 'App\\User', 1, 'created', 8, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":8}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:53:51', '2019-06-20 13:53:51'),
-(273, 'App\\User', 1, 'created', 9, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":9}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:57:36', '2019-06-20 13:57:36'),
-(274, 'App\\User', 1, 'created', 10, 'App\\VentasModel', '[]', '{\"mesa_id\":\"1\",\"estado_id\":1,\"id\":10}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/1?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:57:42', '2019-06-20 13:57:42'),
-(275, 'App\\User', 1, 'updated', 10, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/10?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:57:46', '2019-06-20 13:57:46'),
-(276, 'App\\User', 1, 'updated', 8, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/8?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:57:49', '2019-06-20 13:57:49'),
-(277, 'App\\User', 1, 'updated', 9, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/9?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:57:52', '2019-06-20 13:57:52'),
-(278, 'App\\User', 1, 'created', 11, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":11}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 13:59:20', '2019-06-20 13:59:20'),
-(279, 'App\\User', 1, 'created', 12, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":12}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:00:19', '2019-06-20 14:00:19'),
-(280, 'App\\User', 1, 'created', 13, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":13}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:01:39', '2019-06-20 14:01:39'),
-(281, 'App\\User', 1, 'created', 14, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":14}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:02:53', '2019-06-20 14:02:53'),
-(282, 'App\\User', 1, 'created', 15, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":15}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:09:20', '2019-06-20 14:09:20'),
-(283, 'App\\User', 1, 'created', 16, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":16}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:16:19', '2019-06-20 14:16:19'),
-(284, 'App\\User', 1, 'created', 17, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":17}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:34:52', '2019-06-20 14:34:52'),
-(285, 'App\\User', 1, 'created', 18, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":18}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:35:00', '2019-06-20 14:35:00'),
-(286, 'App\\User', 1, 'created', 19, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":19}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:27', '2019-06-20 14:52:27'),
-(287, 'App\\User', 1, 'updated', 19, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/19?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:34', '2019-06-20 14:52:34'),
-(288, 'App\\User', 1, 'updated', 12, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/12?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:36', '2019-06-20 14:52:36'),
-(289, 'App\\User', 1, 'updated', 11, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/11?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:38', '2019-06-20 14:52:38'),
-(290, 'App\\User', 1, 'updated', 18, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/18?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:40', '2019-06-20 14:52:40'),
-(291, 'App\\User', 1, 'updated', 16, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/16?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:42', '2019-06-20 14:52:42'),
-(292, 'App\\User', 1, 'updated', 14, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/14?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:43', '2019-06-20 14:52:43'),
-(293, 'App\\User', 1, 'updated', 15, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/15?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:45', '2019-06-20 14:52:45'),
-(294, 'App\\User', 1, 'updated', 17, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/17?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:47', '2019-06-20 14:52:47'),
-(295, 'App\\User', 1, 'updated', 13, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/13?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:52:49', '2019-06-20 14:52:49'),
-(296, 'App\\User', 1, 'created', 20, 'App\\VentasModel', '[]', '{\"mesa_id\":\"1\",\"estado_id\":1,\"id\":20}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/1?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:53:03', '2019-06-20 14:53:03'),
-(297, 'App\\User', 1, 'created', 21, 'App\\VentasModel', '[]', '{\"mesa_id\":\"1\",\"estado_id\":1,\"id\":21}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/1?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:54:12', '2019-06-20 14:54:12'),
-(298, 'App\\User', 1, 'created', 22, 'App\\VentasModel', '[]', '{\"mesa_id\":\"1\",\"estado_id\":1,\"id\":22}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/1?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 14:54:22', '2019-06-20 14:54:22'),
-(299, 'App\\User', 1, 'updated', 21, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/21?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:02:16', '2019-06-20 15:02:16'),
-(300, 'App\\User', 1, 'updated', 22, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/22?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:02:17', '2019-06-20 15:02:17'),
-(301, 'App\\User', 1, 'updated', 20, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/20?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:02:19', '2019-06-20 15:02:19'),
-(302, 'App\\User', 1, 'created', 23, 'App\\VentasModel', '[]', '{\"mesa_id\":\"2\",\"estado_id\":1,\"id\":23}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/2?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:04:45', '2019-06-20 15:04:45'),
-(303, 'App\\User', 1, 'created', 24, 'App\\VentasModel', '[]', '{\"mesa_id\":\"1\",\"estado_id\":1,\"id\":24}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/1?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:04:56', '2019-06-20 15:04:56'),
-(304, 'App\\User', 1, 'updated', 24, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/24?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:06:03', '2019-06-20 15:06:03'),
-(305, 'App\\User', 1, 'created', 25, 'App\\VentasModel', '[]', '{\"mesa_id\":\"1\",\"estado_id\":1,\"id\":25}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/1?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:06:07', '2019-06-20 15:06:07'),
-(306, 'App\\User', 1, 'updated', 25, 'App\\VentasModel', '{\"estado_id\":1}', '{\"estado_id\":2}', 'http://localhost/boya/public/ventas_has_producto/cobra_todo/25?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:06:12', '2019-06-20 15:06:12'),
-(307, 'App\\User', 1, 'created', 26, 'App\\VentasModel', '[]', '{\"mesa_id\":\"1\",\"estado_id\":1,\"id\":26}', 'http://localhost/boya/public/ventas_has_producto/lista_mesa_add/1?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:06:15', '2019-06-20 15:06:15'),
-(308, 'App\\User', 1, 'created', 44, 'App\\Ventas_has_productoModel', '[]', '{\"producto_id\":3,\"ventas_id\":26,\"cantidad\":\"1\",\"id\":44}', 'http://localhost/boya/public/ventas_has_producto?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', NULL, '2019-06-20 15:06:46', '2019-06-20 15:06:46');
+(233, 'App\\User', 1, 'deleted', 28, 'App\\Ventas_has_productoModel', '{\"id\":28,\"ventas_id\":1,\"producto_id\":4,\"cantidad\":3}', '[]', 'http://localhost/boya/public/ventas_has_producto/28?', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', NULL, '2019-06-02 03:00:38', '2019-06-02 03:00:38');
 
 -- --------------------------------------------------------
 
@@ -515,43 +440,6 @@ INSERT INTO `dispositivo` (`id`, `nombre`, `latitud`, `logitud`, `descricion`, `
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `entrada`
---
-
-CREATE TABLE `entrada` (
-  `id` int(11) NOT NULL,
-  `cantidad` int(11) NOT NULL,
-  `existencia` int(11) DEFAULT NULL,
-  `precio_unidad` varchar(45) NOT NULL,
-  `productos_id` int(11) NOT NULL,
-  `users_id` int(11) NOT NULL,
-  `lote` varchar(45) NOT NULL,
-  `numero_lote` varchar(45) NOT NULL,
-  `factura_id` int(11) NOT NULL,
-  `estado_id` int(11) NOT NULL DEFAULT '1',
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `fecha_vencimiento` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `entrada`
---
-
-INSERT INTO `entrada` (`id`, `cantidad`, `existencia`, `precio_unidad`, `productos_id`, `users_id`, `lote`, `numero_lote`, `factura_id`, `estado_id`, `created_at`, `updated_at`, `fecha_vencimiento`) VALUES
-(1, 4, NULL, '3400', 1, 1, '3466', '2', 1, 1, '2019-07-06 03:00:08', '2019-07-06 03:00:08', '2019-09-07'),
-(2, 14, NULL, '3500', 2, 1, '03', '3', 2, 1, '2019-07-06 02:15:17', '2019-07-06 02:01:10', ''),
-(3, 56, NULL, '3400', 4, 1, '345', '234', 2, 1, '2019-07-06 02:15:23', '2019-07-06 02:06:11', ''),
-(4, 45, NULL, '3400', 4, 1, '345', '234', 1, 1, '2019-07-06 02:59:51', '2019-07-06 02:59:51', '2019-08-30'),
-(5, 6, NULL, '3500', 2, 1, '34', '4', 1, 1, '2019-07-06 02:47:23', '2019-07-06 02:47:23', '2019-07-05'),
-(7, 34, NULL, '5000', 3, 1, '3400', '3', 1, 1, '2019-07-06 02:47:15', '2019-07-06 02:47:15', '2019-07-05'),
-(8, 10, NULL, '4500', 3, 1, '345', '3', 1, 1, '2019-07-06 02:47:01', '2019-07-06 02:47:01', '2019-07-05'),
-(9, 34, NULL, '43', 2, 1, '23', '23', 1, 1, '2019-07-06 02:27:18', '2019-07-06 02:27:18', '2019-10-11'),
-(10, 34, NULL, '1800', 1, 1, '003', '3', 3, 1, '2019-07-06 22:39:31', '2019-07-06 22:39:31', '2019-07-31');
-
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `estado`
 --
 
@@ -569,58 +457,6 @@ CREATE TABLE `estado` (
 INSERT INTO `estado` (`id`, `nombre`, `created_at`, `update_at`) VALUES
 (1, 'Activo', '2019-01-06 17:21:58', '2019-01-08 05:00:00'),
 (2, 'Inactivo', '2019-01-06 17:22:02', '2019-01-01 05:00:00');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `estado_venta`
---
-
-CREATE TABLE `estado_venta` (
-  `id` int(11) NOT NULL,
-  `nombre` varchar(45) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `estado_venta`
---
-
-INSERT INTO `estado_venta` (`id`, `nombre`, `created_at`, `updated_at`) VALUES
-(1, 'proceso ', '2019-07-06 16:31:27', '0000-00-00 00:00:00'),
-(2, 'proceso_de_pago', '2019-07-06 16:31:27', '0000-00-00 00:00:00'),
-(3, 'proceso_entrega', '2019-07-06 16:31:27', '0000-00-00 00:00:00'),
-(4, 'vendido', '2019-07-06 16:31:27', '0000-00-00 00:00:00'),
-(5, 'anulado', '2019-07-06 16:33:45', '0000-00-00 00:00:00'),
-(6, 'finalizado', '2019-07-06 16:33:45', '0000-00-00 00:00:00');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `factura`
---
-
-CREATE TABLE `factura` (
-  `id` int(11) NOT NULL,
-  `numero_factura` varchar(45) DEFAULT NULL,
-  `fecha` varchar(45) DEFAULT NULL,
-  `proveedor_id` int(11) NOT NULL,
-  `estados_id` int(11) NOT NULL,
-  `users_id` int(11) NOT NULL,
-  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `factura`
---
-
-INSERT INTO `factura` (`id`, `numero_factura`, `fecha`, `proveedor_id`, `estados_id`, `users_id`, `updated_at`, `created_at`) VALUES
-(1, '237-65', '2019-10-10', 0, 1, 1, '2000-07-06 00:15:30', '2019-07-06 00:15:30'),
-(2, '237-65', '2019-10-10', 0, 1, 1, '2019-07-06 00:15:30', '2019-07-06 00:15:30'),
-(3, '237-67', '2019-10-10', 0, 1, 1, '2019-07-06 00:15:30', '2019-07-06 00:15:30'),
-(5, '34-65', '455', 44, 1, 2, '2019-07-06 00:24:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -773,17 +609,7 @@ INSERT INTO `permissions` (`id`, `name`, `guard_name`, `created_at`, `updated_at
 (91, 'Dispositivo Eliminar', 'web', '2019-04-11 00:19:59', '2019-04-11 00:19:59'),
 (92, 'Producto Add', 'web', '2019-05-04 16:14:17', '2019-05-04 16:14:17'),
 (93, 'Producto Editar', 'web', '2019-05-04 16:14:41', '2019-05-04 16:14:41'),
-(94, 'Producto Eliminar', 'web', '2019-05-05 00:13:21', '2019-05-05 00:13:21'),
-(95, 'Factura Add', 'web', '2019-07-05 23:29:20', '2019-07-05 23:29:20'),
-(96, 'Factura Editar', 'web', '2019-07-05 23:29:39', '2019-07-05 23:29:39'),
-(97, 'Factura Eliminar', 'web', '2019-07-05 23:29:57', '2019-07-05 23:29:57'),
-(98, 'Productos Add', 'web', '2019-07-06 00:46:08', '2019-07-06 00:46:08'),
-(99, 'Productos Editar', 'web', '2019-07-06 00:46:27', '2019-07-06 00:46:27'),
-(100, 'Productos Eliminar', 'web', '2019-07-06 00:46:46', '2019-07-06 00:46:46'),
-(101, 'Entrada Add', 'web', '2019-07-06 01:28:10', '2019-07-06 01:28:10'),
-(102, 'Entrada Editar', 'web', '2019-07-06 01:28:27', '2019-07-06 01:28:27'),
-(103, 'Entrada Eliminar', 'web', '2019-07-06 01:28:46', '2019-07-06 01:28:46'),
-(104, 'Entrada Show', 'web', '2019-07-06 01:29:03', '2019-07-06 01:29:03');
+(94, 'Producto Eliminar', 'web', '2019-05-05 00:13:21', '2019-05-05 00:13:21');
 
 -- --------------------------------------------------------
 
@@ -813,76 +639,9 @@ CREATE TABLE `producto` (
 --
 
 INSERT INTO `producto` (`id`, `nombre_proveedor`, `nombre`, `imagen`, `precio_caja`, `cantidad_caja`, `precio_unidad`, `iva`, `porcentaje_ganacia`, `precio_venta`, `ganacia`, `proveedor_id`, `created_at`, `updated_at`) VALUES
-(3, 'Coca cola 400 ml', 'coca cola 400 ml', '1560135743Vf1Ci.jpg	', 30000, 24, 1250, 19, 30, 3113, 43, 1, '2019-06-10 03:02:48', '2019-05-05 01:31:30'),
-(4, 'manzana', 'mnazana', '1560135743Vf1Ci.jpg', 30000, 24, 1250, 19, 30, 3113, 43, 1, '2019-06-10 03:02:24', '2019-06-10 03:02:24'),
-(5, 'uva', 'uva', '1560653451T3TzY.jpg', 30000, 24, 1250, 19, 30, 3113, 43, 1, '2019-06-16 02:50:51', '2019-06-16 02:50:51');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `productos`
---
-
-CREATE TABLE `productos` (
-  `id` int(11) NOT NULL,
-  `codigo_producto` varchar(45) NOT NULL,
-  `nombre` varchar(45) NOT NULL,
-  `descricion` text NOT NULL,
-  `imagen` varchar(20) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `estados_id` int(11) NOT NULL,
-  `precio_venta` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `productos`
---
-
-INSERT INTO `productos` (`id`, `codigo_producto`, `nombre`, `descricion`, `imagen`, `created_at`, `updated_at`, `estados_id`, `precio_venta`) VALUES
-(1, '001', 'coca cola 350ml', 'bebida azucaradas', '15624696683yK9U.jpg', '2019-07-07 03:21:08', '2019-07-07 03:21:08', 1, '2500'),
-(2, '002', 'coca cola 1.5 litro', 'bebidas azucaradas', '15624695457a6DS.jpg', '2019-07-07 03:19:05', '2019-07-07 03:19:05', 1, '4500'),
-(3, '003', 'coca cola zero 500 ml', 'bebidas azucaradas', '15624695221HckB.jpg', '2019-07-07 03:18:42', '2019-07-07 03:18:42', 1, '2500'),
-(4, '011', 'manzana 350 ml', 'bebidas azucaradas', '1560135743Vf1Ci.jpg', '2019-07-07 03:21:34', '2019-07-07 03:21:34', 1, '2000'),
-(5, '012', 'uva 350 ml', 'bebidas azucaradas', '1560135743Vf1Ci.jpg', '2019-07-07 03:21:42', '2019-07-07 03:21:42', 1, '2000'),
-(6, '013', 'naranja 350 ml', 'bebidas azucaradas', '1560135743Vf1Ci.jpg', '2019-07-07 03:21:51', '2019-07-07 03:21:51', 1, '2000'),
-(7, '014', 'te 350 ml', 'bebidas azucaradas', '1560135743Vf1Ci.jpg', '2019-07-07 03:21:59', '2019-07-07 03:21:59', 1, '2000'),
-(8, '015', 'gaseosa 1.5 L postobon', 'de', '1562469871W6Ayo.jpg', '2019-07-07 03:24:31', '2019-07-07 03:24:31', 1, '4500');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `productos_has_venta`
---
-
-CREATE TABLE `productos_has_venta` (
-  `id` int(11) NOT NULL,
-  `productos_id` int(11) NOT NULL,
-  `venta_id` int(11) NOT NULL,
-  `cantidad` int(11) NOT NULL,
-  `precio_producto` varchar(45) DEFAULT NULL,
-  `estado_venta_id` int(11) NOT NULL,
-  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `productos_has_venta`
---
-
-INSERT INTO `productos_has_venta` (`id`, `productos_id`, `venta_id`, `cantidad`, `precio_producto`, `estado_venta_id`, `updated_at`, `created_at`) VALUES
-(1, 3, 2, 5, '2500', 4, '2019-07-06 20:03:56', '2019-07-06 17:09:39'),
-(2, 2, 2, 1, '4500', 4, '2019-07-06 20:03:57', '2019-07-06 19:27:37'),
-(4, 2, 5, 3, '4500', 4, '2019-07-06 20:17:46', '2019-07-06 20:16:19'),
-(5, 2, 6, 1, '4500', 4, '2019-07-06 20:23:08', '2019-07-06 20:21:01'),
-(6, 4, 6, 3, '2000', 4, '2019-07-06 20:23:08', '2019-07-06 20:22:30'),
-(7, 5, 6, 2, '2000', 4, '2019-07-06 20:23:08', '2019-07-06 20:22:55'),
-(8, 2, 7, 2, '4500', 4, '2019-07-06 21:12:43', '2019-07-06 20:24:30'),
-(9, 2, 7, 2, '4500', 4, '2019-07-06 21:12:43', '2019-07-06 20:25:21'),
-(10, 4, 8, 1, '2000', 4, '2019-07-06 21:16:10', '2019-07-06 21:15:51'),
-(11, 5, 8, 1, '2000', 4, '2019-07-06 21:16:10', '2019-07-06 21:15:57'),
-(12, 2, 9, 2, NULL, 1, '2019-07-07 01:23:33', '2019-07-07 01:23:33'),
-(13, 4, 9, 3, NULL, 1, '2019-07-07 01:23:48', '2019-07-07 01:23:48');
+(3, 'Coca cola 400 ml', 'coca cola 400 ml', 'no tiene', 30000, 24, 1250, 19, 30, 3113, 43, 1, '2019-05-05 01:31:30', '2019-05-05 01:31:30'),
+(4, 'manzana', 'mnazana', 'no tiene', 30000, 24, 1250, 19, 30, 3113, 43, 1, '2019-05-24 02:38:53', '2019-05-05 01:31:30'),
+(5, 'uva', 'uva', 'no tiene', 30000, 24, 1250, 19, 30, 3113, 43, 1, '2019-05-24 02:38:58', '2019-05-05 01:31:30');
 
 -- --------------------------------------------------------
 
@@ -954,7 +713,7 @@ INSERT INTO `roles` (`id`, `name`, `guard_name`, `created_at`, `updated_at`) VAL
 (1, 'admin', 'web', '2019-01-05 21:03:14', '2019-01-05 21:03:14'),
 (2, 'Administrador', 'web', '2019-01-24 02:32:21', '2019-01-24 02:32:21'),
 (3, 'Super Administrador', 'web', '2019-04-02 14:22:39', '2019-04-02 14:22:39'),
-(5, 'Proveedor', 'web', '2019-07-06 01:25:45', '2019-07-06 01:25:45');
+(4, 'taquillero', 'web', '2019-04-04 12:18:28', '2019-04-04 12:18:28');
 
 -- --------------------------------------------------------
 
@@ -1069,15 +828,19 @@ INSERT INTO `role_has_permissions` (`permission_id`, `role_id`) VALUES
 (75, 3),
 (76, 2),
 (76, 3),
+(76, 4),
 (77, 2),
 (77, 3),
+(77, 4),
 (78, 2),
 (78, 3),
+(78, 4),
 (79, 3),
 (80, 3),
 (81, 3),
 (82, 2),
 (82, 3),
+(82, 4),
 (83, 3),
 (84, 3),
 (85, 3),
@@ -1090,27 +853,12 @@ INSERT INTO `role_has_permissions` (`permission_id`, `role_id`) VALUES
 (92, 1),
 (92, 2),
 (92, 3),
+(92, 4),
 (93, 2),
 (93, 3),
 (94, 1),
 (94, 2),
-(94, 3),
-(95, 3),
-(95, 5),
-(96, 3),
-(96, 5),
-(97, 3),
-(98, 3),
-(99, 3),
-(100, 3),
-(101, 3),
-(101, 5),
-(102, 3),
-(102, 5),
-(103, 3),
-(103, 5),
-(104, 3),
-(104, 5);
+(94, 3);
 
 -- --------------------------------------------------------
 
@@ -1213,36 +961,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `nickname`, `avatar`, `remember_token`, `created_at`, `updated_at`, `stripe_id`, `card_brand`, `card_last_four`, `trial_ends_at`, `nombre`, `apellido`, `cedula`, `correo`, `celular`, `telefono_fijo`, `direccion_correo`) VALUES
-(1, 'marcos alberto saavedra', 'once.marcos.alberto@gmail.com', '$2y$10$7ULrAbLcMD8BiPyZ3UqcEOAU2944pzdvDORQiL7RGyYdiM5n7lF36', NULL, '1555985093pH0j7.jpg', 'zfNGczLcfhJWVSSRTrNY5X8o0UZY0h4rpQldArJ6GIbSlJ81JLpoI2VMhwoB', '2019-01-05 03:53:36', '2019-04-23 02:04:53', NULL, NULL, NULL, NULL, 'marcus', 'saavedra', 1069176309, 'once.marcos.alberto@gmail.com', 2147483647, 32456, 'como esta tu'),
+(1, 'marcos alberto saavedra', 'once.marcos.alberto@gmail.com', '$2y$10$7ULrAbLcMD8BiPyZ3UqcEOAU2944pzdvDORQiL7RGyYdiM5n7lF36', NULL, '1555985093pH0j7.jpg', 'bkWb1oA7r82WsuFujobP8cwmWflppdf41brbHBmzhuBMvwg4tbqwqNnUut7H', '2019-01-05 03:53:36', '2019-04-23 02:04:53', NULL, NULL, NULL, NULL, 'marcus', 'saavedra', 1069176309, 'once.marcos.alberto@gmail.com', 2147483647, 32456, 'como esta tu'),
 (2, 'marcos alberto', 'once.marcos@gmail.com', '$2y$10$7ULrAbLcMD8BiPyZ3UqcEOAU2944pzdvDORQiL7RGyYdiM5n7lF36', NULL, '', NULL, '2019-02-06 01:29:23', '2019-02-06 01:29:23', NULL, NULL, NULL, NULL, '', '', 0, '', 0, 0, '');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `venta`
---
-
-CREATE TABLE `venta` (
-  `id` int(11) NOT NULL,
-  `fecha_venta` varchar(45) DEFAULT NULL,
-  `users_id` int(11) NOT NULL,
-  `estado_venta_id` int(11) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `venta`
---
-
-INSERT INTO `venta` (`id`, `fecha_venta`, `users_id`, `estado_venta_id`, `created_at`, `updated_at`) VALUES
-(1, NULL, 1, 6, '2019-07-06 17:09:32', '2019-07-06 17:07:28'),
-(2, NULL, 1, 4, '2019-07-06 20:05:56', '2019-07-06 20:05:56'),
-(5, NULL, 1, 4, '2019-07-06 20:17:46', '2019-07-06 20:17:46'),
-(6, NULL, 1, 4, '2019-07-06 20:23:08', '2019-07-06 20:23:08'),
-(7, '16:12:43', 1, 4, '2019-07-06 21:12:43', '2019-07-06 21:12:43'),
-(8, '2019-07-06 16:16:10', 1, 4, '2019-07-06 21:16:10', '2019-07-06 21:16:10'),
-(9, NULL, 1, 1, '2019-07-06 21:16:11', '2019-07-06 21:16:11');
 
 -- --------------------------------------------------------
 
@@ -1253,21 +973,16 @@ INSERT INTO `venta` (`id`, `fecha_venta`, `users_id`, `estado_venta_id`, `create
 CREATE TABLE `ventas` (
   `id` int(11) NOT NULL,
   `precio` varchar(45) NOT NULL,
-  `mesa_id` int(11) NOT NULL,
-  `estado_id` int(11) NOT NULL,
-  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+  `mesa_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `ventas`
 --
 
-INSERT INTO `ventas` (`id`, `precio`, `mesa_id`, `estado_id`, `updated_at`, `created_at`) VALUES
-(23, '', 2, 1, '2019-06-20 15:04:45', '2019-06-20 15:04:45'),
-(24, '', 1, 2, '2019-06-20 15:06:03', '2019-06-20 15:04:56'),
-(25, '', 1, 2, '2019-06-20 15:06:12', '2019-06-20 15:06:07'),
-(26, '', 1, 1, '2019-06-20 15:06:15', '2019-06-20 15:06:15');
+INSERT INTO `ventas` (`id`, `precio`, `mesa_id`) VALUES
+(1, '100', 1),
+(2, '200', 2);
 
 -- --------------------------------------------------------
 
@@ -1290,19 +1005,8 @@ CREATE TABLE `ventas_has_producto` (
 
 INSERT INTO `ventas_has_producto` (`id`, `ventas_id`, `producto_id`, `cantidad`, `created_at`, `updated_at`) VALUES
 (13, 2, 4, 3, '2019-05-25 02:04:06', '2019-05-25 02:04:06'),
-(30, 1, 3, 2, '2019-06-10 02:55:52', '2019-06-10 02:55:52'),
-(31, 2, 3, 2, '2019-06-10 02:55:55', '2019-06-10 02:55:55'),
-(32, 2, 3, 2, '2019-06-10 02:55:59', '2019-06-10 02:55:59'),
-(33, 1, 3, 2, '2019-06-10 02:56:03', '2019-06-10 02:56:03'),
-(34, 2, 3, 2, '2019-06-10 02:56:05', '2019-06-10 02:56:05'),
-(35, 2, 3, 2, '2019-06-10 02:56:09', '2019-06-10 02:56:09'),
-(36, 1, 5, 10, '2019-06-11 00:43:33', '2019-06-11 00:43:33'),
-(39, 1, 5, 5, '2019-06-20 13:44:49', '2019-06-20 13:44:49'),
-(40, 2, 3, 3, '2019-06-10 03:30:54', '2019-06-10 03:30:54'),
-(41, 1, 4, 6, '2019-06-11 00:33:49', '2019-06-11 00:33:49'),
-(42, 1, 3, 1, '2019-06-10 03:31:50', '2019-06-10 03:31:50'),
-(43, 1, 4, 1, '2019-06-10 03:32:31', '2019-06-10 03:32:31'),
-(44, 26, 3, 1, '2019-06-20 15:06:45', '2019-06-20 15:06:45');
+(26, 1, 4, 3, '2019-05-31 14:29:50', '2019-05-31 14:29:50'),
+(27, 1, 4, 3, '2019-05-31 14:30:09', '2019-05-31 14:30:09');
 
 --
 -- Índices para tablas volcadas
@@ -1338,34 +1042,10 @@ ALTER TABLE `dispositivo`
   ADD KEY `fk_dispositivo_users1_idx` (`users_id`);
 
 --
--- Indices de la tabla `entrada`
---
-ALTER TABLE `entrada`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `fk_entrada_productos1_idx` (`productos_id`),
-  ADD KEY `fk_entrada_users1_idx` (`users_id`),
-  ADD KEY `fk_entrada_factura1_idx` (`factura_id`),
-  ADD KEY `fk_entrada_estado1_idx` (`estado_id`);
-
---
 -- Indices de la tabla `estado`
 --
 ALTER TABLE `estado`
   ADD PRIMARY KEY (`id`);
-
---
--- Indices de la tabla `estado_venta`
---
-ALTER TABLE `estado_venta`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indices de la tabla `factura`
---
-ALTER TABLE `factura`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `fk_factura_estados1_idx` (`estados_id`),
-  ADD KEY `fk_factura_users1_idx` (`users_id`);
 
 --
 -- Indices de la tabla `mesa`
@@ -1412,22 +1092,6 @@ ALTER TABLE `permissions`
 ALTER TABLE `producto`
   ADD PRIMARY KEY (`id`),
   ADD KEY `fk_producto_proveedor1_idx` (`proveedor_id`);
-
---
--- Indices de la tabla `productos`
---
-ALTER TABLE `productos`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `fk_productos_estados1_idx` (`estados_id`);
-
---
--- Indices de la tabla `productos_has_venta`
---
-ALTER TABLE `productos_has_venta`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `fk_productos_has_venta_venta1_idx` (`venta_id`),
-  ADD KEY `fk_productos_has_venta_productos1_idx` (`productos_id`),
-  ADD KEY `fk_productos_has_venta_estado_venta1_idx` (`estado_venta_id`);
 
 --
 -- Indices de la tabla `proveedor`
@@ -1488,14 +1152,6 @@ ALTER TABLE `users`
   ADD UNIQUE KEY `users_email_unique` (`email`);
 
 --
--- Indices de la tabla `venta`
---
-ALTER TABLE `venta`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `fk_venta_users1_idx` (`users_id`),
-  ADD KEY `fk_venta_estado_venta1_idx` (`estado_venta_id`);
-
---
 -- Indices de la tabla `ventas`
 --
 ALTER TABLE `ventas`
@@ -1518,7 +1174,7 @@ ALTER TABLE `ventas_has_producto`
 -- AUTO_INCREMENT de la tabla `audits`
 --
 ALTER TABLE `audits`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=309;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=234;
 
 --
 -- AUTO_INCREMENT de la tabla `ayuda`
@@ -1539,28 +1195,10 @@ ALTER TABLE `dispositivo`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT de la tabla `entrada`
---
-ALTER TABLE `entrada`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
-
---
 -- AUTO_INCREMENT de la tabla `estado`
 --
 ALTER TABLE `estado`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT de la tabla `estado_venta`
---
-ALTER TABLE `estado_venta`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
---
--- AUTO_INCREMENT de la tabla `factura`
---
-ALTER TABLE `factura`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de la tabla `mesa`
@@ -1578,25 +1216,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT de la tabla `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=105;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=95;
 
 --
 -- AUTO_INCREMENT de la tabla `producto`
 --
 ALTER TABLE `producto`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
---
--- AUTO_INCREMENT de la tabla `productos`
---
-ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
-
---
--- AUTO_INCREMENT de la tabla `productos_has_venta`
---
-ALTER TABLE `productos_has_venta`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT de la tabla `proveedor`
@@ -1614,7 +1240,7 @@ ALTER TABLE `punto`
 -- AUTO_INCREMENT de la tabla `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `thought`
@@ -1647,22 +1273,16 @@ ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT de la tabla `venta`
---
-ALTER TABLE `venta`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
-
---
 -- AUTO_INCREMENT de la tabla `ventas`
 --
 ALTER TABLE `ventas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `ventas_has_producto`
 --
 ALTER TABLE `ventas_has_producto`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- Restricciones para tablas volcadas
@@ -1680,22 +1300,6 @@ ALTER TABLE `datos_dispositivo_bolla`
 ALTER TABLE `dispositivo`
   ADD CONSTRAINT `fk_dispositivo_tipo_dispositivo` FOREIGN KEY (`tipo_dispositivo_id`) REFERENCES `tipo_dispositivo` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `fk_dispositivo_users1` FOREIGN KEY (`users_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
---
--- Filtros para la tabla `entrada`
---
-ALTER TABLE `entrada`
-  ADD CONSTRAINT `fk_entrada_estado1` FOREIGN KEY (`estado_id`) REFERENCES `estado` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_entrada_factura1` FOREIGN KEY (`factura_id`) REFERENCES `factura` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_entrada_productos1` FOREIGN KEY (`productos_id`) REFERENCES `productos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_entrada_users1` FOREIGN KEY (`users_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
---
--- Filtros para la tabla `factura`
---
-ALTER TABLE `factura`
-  ADD CONSTRAINT `fk_factura_estados1` FOREIGN KEY (`estados_id`) REFERENCES `estado` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_factura_users1` FOREIGN KEY (`users_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Filtros para la tabla `model_has_permissions`
@@ -1716,32 +1320,11 @@ ALTER TABLE `producto`
   ADD CONSTRAINT `fk_producto_proveedor1` FOREIGN KEY (`proveedor_id`) REFERENCES `proveedor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Filtros para la tabla `productos`
---
-ALTER TABLE `productos`
-  ADD CONSTRAINT `fk_productos_estados1` FOREIGN KEY (`estados_id`) REFERENCES `estado` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
---
--- Filtros para la tabla `productos_has_venta`
---
-ALTER TABLE `productos_has_venta`
-  ADD CONSTRAINT `fk_productos_has_venta_estado_venta1` FOREIGN KEY (`estado_venta_id`) REFERENCES `estado_venta` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_productos_has_venta_productos1` FOREIGN KEY (`productos_id`) REFERENCES `productos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_productos_has_venta_venta1` FOREIGN KEY (`venta_id`) REFERENCES `venta` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
---
 -- Filtros para la tabla `tipo_productos_has_producto`
 --
 ALTER TABLE `tipo_productos_has_producto`
   ADD CONSTRAINT `fk_tipo_productos_has_producto_producto1` FOREIGN KEY (`producto_id`) REFERENCES `producto` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `fk_tipo_productos_has_producto_tipo_productos1` FOREIGN KEY (`tipo_productos_id`) REFERENCES `tipo_productos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
---
--- Filtros para la tabla `venta`
---
-ALTER TABLE `venta`
-  ADD CONSTRAINT `fk_venta_estado_venta1` FOREIGN KEY (`estado_venta_id`) REFERENCES `estado_venta` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_venta_users1` FOREIGN KEY (`users_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Filtros para la tabla `ventas`
