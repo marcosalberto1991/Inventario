@@ -26,12 +26,12 @@ class ProductosController extends Controller
 	protected $rules =
 	[
 		
-				//'id' => 'required|min:1|max:99999999',
-	   			'codigo_producto' => 'required|min:2|max:255|regex:/^([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-])+((\s*)+([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-]*)*)+$/',
-	   			'nombre' => 'required|min:2|max:255|regex:/^([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-])+((\s*)+([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-]*)*)+$/',
-	   			'estados_id' => 'required|min:1|max:99999999',
-	   			'precio_venta' => 'required|min:2|max:255|regex:/^([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-])+((\s*)+([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-]*)*)+$/',
-	   			'descricion' => 'required|min:2|max:255|regex:/^([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-])+((\s*)+([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-]*)*)+$/',
+	//'id' => 'required|min:1|max:99999999',
+	'codigo_producto' => 'required|min:2|max:255|regex:/^([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-])+((\s*)+([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-]*)*)+$/',
+	'nombre' => 'required|min:2|max:255|regex:/^([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-])+((\s*)+([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-]*)*)+$/',
+	'estados_id' => 'required|min:1|max:99999999',
+	'precio_venta' => 'required|min:2|max:255|regex:/^([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-])+((\s*)+([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-]*)*)+$/',
+	'descricion' => 'required|min:2|max:255|regex:/^([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-])+((\s*)+([0-9a-zA-ZñÑáéíóúÁÉÍÓÚ.,()_-]*)*)+$/',
 	   			
 	];
 
@@ -39,7 +39,7 @@ class ProductosController extends Controller
 
 		//$id_tipo = Solicitude_tipo::select("solicitude_tipos.id","solicitude_tipos.descripcion as nombre")->get();
 
-		$Productos = ProductosModel::all();
+		$Productos = ProductosModel::paginate(5);
 
 		$estados_id = EstadoModel::select("id","nombre")->get();
 		   	
@@ -56,17 +56,17 @@ class ProductosController extends Controller
 		} else {
 			$Productos = new ProductosModel();
 			
-			 $Productos->codigo_producto=$request->codigo_producto;
-				 $Productos->nombre=$request->nombre;
-				 $Productos->descricion=$request->descricion;
-				 $file2 = Input::file('imagen');
-				if(isset($file2)) {
-					$nombres = time() . str_random(5) . '.' . $file2->getClientOriginalExtension();
-					\Storage::disk('perfil')->put($nombres, \File::get($file2));
-					$Productos->imagen = $nombres;
-				}
-				 $Productos->estados_id=$request->estados_id;
-				 $Productos->precio_venta=$request->precio_venta;
+			$Productos->codigo_producto=$request->codigo_producto;
+			$Productos->nombre=$request->nombre;
+			$Productos->descricion=$request->descricion;
+			$file2 = Input::file('imagen');
+			if(isset($file2)) {
+				$nombres = time() . str_random(5) . '.' . $file2->getClientOriginalExtension();
+				\Storage::disk('imagenes')->put($nombres, \File::get($file2));
+				$Productos->imagen = $nombres;
+			}
+			$Productos->estados_id=$request->estados_id;
+			$Productos->precio_venta=$request->precio_venta;
 				
 			$Productos->save();
 			return response()->json($Productos);
@@ -90,7 +90,7 @@ class ProductosController extends Controller
 				 $file2 = Input::file('imagen');
 				if(isset($file2)) {
 					$nombres = time() . str_random(5) . '.' . $file2->getClientOriginalExtension();
-					\Storage::disk('perfil')->put($nombres, \File::get($file2));
+					\Storage::disk('imagenes')->put($nombres, \File::get($file2));
 					$Productos->imagen = $nombres;
 				}
 				 $Productos->estados_id=$request->estados_id;

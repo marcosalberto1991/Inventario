@@ -2,6 +2,7 @@
 
 <script type='text/javascript'>
 	<?php echo "const  Foraestados_id= $estados_id;"; ?>
+
 </script>
 
 @section('content')
@@ -9,6 +10,8 @@
 	<div class="box box-warning">
 		<div class="box-header with-border">
 			<h3 class="box-descripcion">Lista de Productos</h3>
+			{{ $listmysql->links() }}
+
 		</div>
 		<div class="box-body">
 			<div class="">
@@ -54,8 +57,8 @@
 									<td class="col1">{{ $lists->nombre }}</td>
 									<td class="col1">{{ $lists->descricion }}</td>
 									<td>
-										<a href="{{ asset('perfil_usuario/'.$lists->imagen) }}" target="_blank">
-											<img height="40px" src="{{ asset('perfil_usuario/'.$lists->imagen) }}"
+										<a href="{{ asset('imagenes/'.$lists->imagen) }}" target="_blank">
+											<img height="40px" src="{{ asset('imagenes/'.$lists->imagen) }}"
 												width="40px" />
 
 										</a>
@@ -291,7 +294,7 @@
 	$('#estados_id_mass').val(data.data('estados_id'));
 	$('#precio_venta_mass').val(data.data('precio_venta'));
 
-	var url='{{ asset("perfil_usuario/") }}';
+	var url='{{ asset("imagenes/") }}';
 	$("#Imagene_modal").attr("src", url+'/'+data.data('imagen'));
 	
 }
@@ -502,7 +505,7 @@ $('.modal-footer').on('click', '.edit', function() {
 	const resulestados_id=Foraestados_id.find( cas => cas.id == data.estados_id ); 
 		
 	
-	var url='{{ asset("perfil_usuario/") }}';
+	var url='{{ asset("imagenes/") }}';
 	var tabla=
 		"<tr  id='item_"+data.id+"'  class='item"+data.id+"'>"+
 		"<td class='col1'>" + data.id + "</td>"+

@@ -45,7 +45,7 @@ return [
 
         'local' => [
             'driver' => 'local',
-            'root' => storage_path('app/imagenes'),
+            'root' => storage_path('app'),
         ],
         'perfil' => [
             'driver' => 'local',
@@ -54,6 +54,10 @@ return [
         'ficha_detalle' => [
             'driver' => 'local',
             'root' => storage_path('app/ficha_detalle'),
+        ],
+        'imagenes' => [
+            'driver' => 'local',
+            'root' => storage_path('app/imagenes'),
         ],
         'intervenir' => [
             'driver' => 'local',

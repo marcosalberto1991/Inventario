@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,9 +9,13 @@
 | contains the "web" middleware group. Now create something great!
 |
  */
+Route::get('users/consulta', 'UserController@consulta');
+Route::resource('users', 'UserController');
 
-
-//Route::apiResource('thoughts', 'ThoughtController');
+//Route::get('users',[
+//	'as' => 'users.index',
+//	'uses' => 'UserController@index'
+//]);
 
 Route::resource('Venta','VentaController');
 Route::resource('Productos_has_venta','Productos_has_ventaController');
@@ -20,7 +23,6 @@ Route::get('Productos/pdf', 'ProductosController@pdf');
 Route::resource('Productos','ProductosController');
 Route::resource('Entrada','EntradaController');
 Route::get('{id}/Entrada', 'EntradaController@entrada');
-
 
 Route::Resource('thoughts', 'ThoughtController');
 Route::Resource('ventas_has_producto', 'Ventas_has_productoController');
@@ -89,29 +91,22 @@ Route::get('ficha_detalle_foto/{file}', function ($file) {
 });
 Route::get('intervenir/{file}', function ($file) {
     return Storage::disk('intervenir')->response("$file");
+    
 });
-/*
-*/
-
-//Route::get('/', function () {
- //   return view('inicio');
-//});
-//Route::get('/', 'Auth\LoginController@index');
-
+Route::get('imagenes/{file}', function ($file) {
+    try {
+        return Storage::disk('imagenes')->response("$file");
+    } catch (\Throwable $th) {
+        return Storage::disk('local')->response("avatar.jpg");
+    }
+});
 
 Auth::routes();
-
 Route::resource('ayuda','ayudaController');
-
 Route::resource('Dispositivo','DispositivoController');
-
-
 Route::resource('DatosDispositivo','DatosDispositivoController');
-
-
 Route::get('Grafica', 'DatosDispositivoController@DatosGrafica');
 Route::get('{id}/DatoDispositivo', 'DatosDispositivoController@DatoDispositivo');
-
 Route::get('backup', 'BackupController@index');
 Route::get('backup/create', 'BackupController@create');
 Route::get('backup/download/{file_name}', 'BackupController@download');
@@ -149,7 +144,7 @@ Route::post('Perfil/subir', array('as' => 'changeStatus', 'uses' => 'PerfilUsuar
 Route::post('Perfil/Edit_password', [ 'as' => 'Perfil.Edit_password', 'uses' => 'PerfilUsuariocontroller@Edit_password']);
 Route::resource('PerfilUsuario', 'PerfilUsuarioController');
 
-Route::resource('users', 'UserController');
+//Route::resource('users', 'UserController');
 Route::resource('roles', 'RoleController');
 Route::resource('permissions', 'PermissionController');
 

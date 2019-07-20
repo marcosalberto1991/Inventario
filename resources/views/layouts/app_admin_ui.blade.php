@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="Tables are the backbone of almost all web applications.">
     <meta name="msapplication-tap-highlight" content="no">
@@ -21,8 +21,13 @@
     * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
     -->
     <link href="{{ asset('Architectui/assets/css/main.css') }}" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script>
+        window.Laravel = {!! json_encode([
+            'csrfToken' => csrf_token(),
+        ]) !!};
+    </script>
+
 </head>
 
 <style type="text/css">
@@ -670,6 +675,7 @@
             
 
 <script>
+    
   $(function () {
     $("#example1").DataTable();
     $('#example2').DataTable({
